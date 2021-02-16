@@ -1,0 +1,36 @@
+$brandBackground: linear-gradient(0deg, rgba(39,34,195,1) 0%, rgba(45,253,62,1) 100%);
+$header-img: “../img/texture.jpg”;
+.all-container{
+    width: 100%;
+    height: 100vh;
+    background: $brandBackground;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: 70%;
+    background-image: url($header-img);
+    margin: auto;
+    
+    &-first,&-second,&-third{
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: 25px;
+    }
+    &-first{
+        width: 10%;
+        &-logo img{
+            height: 75px;
+            vertical-align: middle;
+        }
+    }
+    &-second,&-third{
+        width: 45%;
+    }
+
+}
