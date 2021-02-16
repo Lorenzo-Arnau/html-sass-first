@@ -1,5 +1,5 @@
 $brandBackground: linear-gradient(0deg, rgba(39,34,195,1) 0%, rgba(45,253,62,1) 100%);
-$header-img: “../img/texture.jpg”;
+$imgUrl: "../img/texture.jpg";
 .all-container{
     width: 100%;
     height: 100vh;
@@ -11,7 +11,7 @@ $header-img: “../img/texture.jpg”;
     align-items: center;
     height: 75px;
     width: 70%;
-    background-image: url($header-img);
+    background-image:url($imgUrl);
     margin: auto;
     
     &-first,&-second,&-third{
