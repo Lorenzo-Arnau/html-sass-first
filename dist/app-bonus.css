@@ -10,7 +10,7 @@
   align-items: center;
   height: 75px;
   width: 70%;
-  background-image: url(/images/texture.jpg?3b9439711211e748930d6e6abab3a7ae);
+  background-image: url("../img/texture.jpg");
   margin: auto;
 }
 .navbar-first, .navbar-second, .navbar-third {
